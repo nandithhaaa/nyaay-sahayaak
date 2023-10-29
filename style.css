@@ -1,0 +1,30 @@
+body{
+    background-image: url(image2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.NYAAY{
+    color:white;
+    font-size: 100px;
+}
+.transparent-button {
+    background: transparent; 
+    border: 1px solid white;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+   
+    font-size: 30px;
+ 
+
+  }
+.transparent-button:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+  

@@ -1,0 +1,76 @@
+body{
+    background-image: url(image3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.navbar ul{
+    list-style-type:none;
+    background-color: grey;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    text-align: center;
+    
+}
+.navbar a:hover{
+    background-color:  rgb(51, 51, 51);
+    cursor: pointer;
+}
+.navbar li{
+    float: left;
+}
+.navbar2 ul{
+    list-style-type: none;
+    background-color: grey;
+    padding:0px;
+    margin:0px;
+}
+.navbar2 a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    text-align: left;
+}
+.navbar2 a:hover{
+    background-color:  rgb(51, 51, 51);
+    cursor: pointer;
+}
+form{
+    background: #fff;;
+    width: 600px;
+    height: 55px;
+    display: flex;
+    border-radius: 30px;
+}
+form input{
+    flex:1;
+    border:none;
+    outline: none;
+    border-radius: 30px;
+}
+form button{
+    background: tomato;
+    padding: 10px 50px;
+    border: none;
+    outline: none;
+    color: #fff;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border-radius: 30px;
+}
+form .fa-search{
+    align-self: center;
+    padding: 10px 20px;
+    color:#777;
+}
